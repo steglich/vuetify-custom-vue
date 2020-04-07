@@ -4,7 +4,7 @@ import buble from "rollup-plugin-buble"; // Transpila com considerável suporte 
 export default {
   input: "src/wrapper.js", // Caminho relativo ao package.json
   output: {
-    name: "library",
+    name: "vuetifyCustomVue",
     exports: "named",
   },
   plugins: [
@@ -15,5 +15,5 @@ export default {
     }),
     buble(), // Transpila para ES5
   ],
-  external: ["vuetify"],
+  external: ["Vuetify"]
 };

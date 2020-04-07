@@ -88,32 +88,22 @@
         </v-row>
       </v-col>
     </v-row>
-    <div>
-    <v-card
-      v-for="j in justify"
-      :key="j"
-      :class="`d-flex justify-${j} mb-6`"
-      color="grey lighten-2"
-      flat
-      tile
-    >
-      <v-card
-        v-for="n in 3"
-        :key="n"
-        class="pa-2"
-        outlined
-        tile
-      >
-        Flex item
-      </v-card>
-    </v-card>
-  </div>
+    <FlexJustify />
+    <br> <br>
+    <TextWrapping />
   </v-container>
 </template>
 
 <script>
+import FlexJustify from './FlexJustify.vue'
+import TextWrapping from './TextWrapping.vue'
+
   export default {
     name: 'HelloWorld',
+    components: {
+      FlexJustify,
+      TextWrapping
+    },
 
     data: () => ({
       ecosystem: [
@@ -173,6 +163,6 @@
         'space-between',
         'space-around',
       ],
-    }),
+    })
   }
 </script>
