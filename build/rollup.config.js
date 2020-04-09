@@ -2,7 +2,7 @@ import commonjs from "rollup-plugin-commonjs"; // Converte módulos CommonJS par
 import vue from "rollup-plugin-vue"; // Manipula arquivos .vue
 import buble from "rollup-plugin-buble"; // Transpila com considerável suporte a navegadores
 export default {
-  input: "src/wrapper.js", // Caminho relativo ao package.json
+  input: "src/index.js", // Caminho relativo ao package.json
   output: {
     name: "vuetifyCustomVue",
     exports: "named",

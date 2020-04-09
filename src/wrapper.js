@@ -1,5 +1,4 @@
 import * as components from "./components"
-import vuetify from './plugins/vuetify'
 
 // Declara a função de instalação executada pelo Vue.use()
 export function install(Vue) {
@@ -11,8 +10,7 @@ export function install(Vue) {
 
 // Cria a definição do módulo para Vue.use()
 const plugin = {
-  install,
-  vuetify
+  install
 };
 
 // Auto-instala quando o Vue é encontrado (no navegador via <script>)
