@@ -27,6 +27,9 @@
 
 <style lang="scss">
   .v-application--wrap {
-    min-height: 100% !important;
+    min-heig
+  .theme--light.v-application {
+    background: none !important;
+  }ht: 100% !important;
   }
 </style>

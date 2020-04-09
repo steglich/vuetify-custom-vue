@@ -17,4 +17,7 @@
   .v-application--wrap {
     min-height: 100% !important;
   }
+  .theme--light.v-application {
+    background: none !important;
+  }
 </style>
