@@ -1,6 +1,6 @@
 {
   "name": "vuetify-custom-vue",
-  "version": "0.3.2385",
+  "version": "0.3.23861",
   "license": "MIT",
   "author": "Marlon Steglich",
   "description": "Lib de teste",
@@ -64,6 +64,6 @@
     "last 2 versions"
   ],
   "publishConfig": {
-    "access": "public"
+    "vuetify-custom-vue:registry": "https://www.npmjs.com/package/vuetify-custom-vue/"
   }
 }
